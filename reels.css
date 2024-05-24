@@ -1,0 +1,279 @@
+body {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+    display: flex ;
+    width: 100vw;
+    padding-right: 1rem;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+.sidebar {
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding-left: 2rem;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+div.link:hover {
+    background-color: rgb(49, 49, 50);
+}
+.link {
+    height: 7%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.sidebarbottom {
+    display: none;
+}
+.logo {
+    width: 50%;
+    height: 5%;
+}
+.logo2 {
+    display: none;
+}
+.navlogo {
+    display: none;
+}
+.mainbar2 {
+    display: none;
+}
+.sidebar.link {
+    display: flex;
+    align-items: center;
+    padding: o.7rem 0;
+    font-size: 1.3rem;
+    margin-right:10 px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.image {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.mainbar {
+    width:70rem;
+    margin-top: 2%;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.middle {
+    height: 100vh;
+    width: 50rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding-left: 10rem;
+}
+.reel {
+    height: 550px;
+    width: 350px;
+    background-color: black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.video {
+    height: 510px;
+    width:270px ;
+    background-color: black;
+    background-image: url(feed15.jpeg);
+    background-size: cover;
+    margin: 1rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-weight: bolder;
+    padding-bottom: 1rem;
+}
+.react {
+    height: 550px;
+    width: 80px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.reaction {
+    margin-top: 2rem;
+}
+.rimage {
+    height: 30px;
+    width: 30px;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+.first  {
+    display: flex;
+    justify-content: space-around;
+
+}
+.flwbtn {
+    background-color: transparent;
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 3px;
+}
+.third {
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width:700px) and (max-width:900px)
+{
+    .sidebar {
+        width: 7%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        color: white;
+        padding-left: 2rem;
+        border-right: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    .link a {
+        display:none ;
+    }
+    .logo {
+        display: none;
+    }
+    .logo2 {
+        display: block;
+    }
+    .navlogo {
+        display: none;
+    }
+    .rightsidebar {
+        display: none;
+    }
+    .mainbar {
+        width:100vw;
+        margin-top: 2%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content:space-around;
+    }
+    .middle {
+        height: 100vh;
+        width: 50rem;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding-left: 5rem;
+    }
+}
+@media screen and (max-width:700px)
+{
+    .sidebar {
+        display: none;
+    }
+    .mainbar2 {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        top: 0;
+        left: 0;
+        height: 3rem;
+        width: 100%;
+        background-color:black;
+        padding-top: 2%;
+        border-top: 1 px solid grey;
+    }
+    .search {
+        background-color:rgb(55, 54, 54);
+        width: 250px;
+        border-radius: 10px;
+        padding-left: 1%;
+        margin: 0;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        color: rgb(146, 144, 144);
+        margin-left: 15%;
+    }
+    .search-input {
+        background-color:rgb(55, 54, 54);
+        border: 0;
+        color: white;
+        border-radius: 5px;
+        width: 200px;
+        height: 1.5rem;
+    }
+    .navlogo {
+        display: block;
+        width: 15%;
+        height: 50%;
+        padding-top: 0.5rem;
+    }
+    .sidebarbottom {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        left: 0;
+        height: 2rem;
+        width: 100%;
+        background-color:black;
+        padding-top: 3%;
+        border-top: 1 px solid grey;
+    }
+    .link a {
+        display: none;
+    }
+    .rightsidebar {
+        display: none;
+    }
+    div.link:hover {
+        background-color: rgb(49, 49, 50);
+    }
+    .link {
+        height: 2rem;
+        width: 5%;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mainbar {
+        width:100vw;
+        margin-top: 2%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content:space-around;
+    }
+    .middle {
+        height: 100vh;
+        width: 50rem;
+        background-color: black;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0rem;
+    }
+}
