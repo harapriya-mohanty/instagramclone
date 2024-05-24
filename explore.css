@@ -176,8 +176,23 @@ a {
     width: 20rem;
     background-color: white;
     border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
 }
-@media (min-width:700px) and (max-width:900px)
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    padding-top: 1rem;
+}
+.image2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+}
+@media (min-width:940px) and (max-width:1100px)
 {
     .sidebar {
         width: 7%;
@@ -216,41 +231,20 @@ a {
         display: flex;
         justify-content:space-around;
     }
-    .topmiddlebar {
-        width: 80vw;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        padding-left: 3rem;
-    }
-    .middlemiddlebar {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        padding-left: 3rem;
-    }
-    .bottommiddlebar {
-        padding-left: 6rem;
-    }
     .image1 {
         border-radius: 50%;
         height: 50px;
         width: 50px;
     }
-    .story {
-        height: 55px;
-        width: 55px;
-        border-radius: 50%;
+    .post {
+        height: 19rem;
+        width: 19rem;
         background-color: white;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        background-image: linear-gradient(to bottom left,rgb(235, 76, 174), red, yellow);
-    
+        border: 1px solid black;
+        margin: 3px;
     }
 }
-@media screen and (max-width:700px)
+@media (min-width:790px) and (max-width:940px)
 {
     .sidebar {
         display: none;
@@ -331,25 +325,110 @@ a {
         display: flex;
         justify-content:space-around;
     }
-    .topmiddlebar {
-        width: 100vw;
-        display: flex;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        padding-top: 3rem;
+    .image1 {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
     }
-    .middlemiddlebar {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
+    .post {
+        height: 16rem;
+        width: 16rem;
+        background-color: white;
+        border: 1px solid black;
+        margin: 2px;
     }
-    .bottommiddlebar {
-        padding-left: 1rem;
+}
+@media screen and (max-width:790px)
+{
+    .sidebar {
+        display: none;
+    }
+    .mainbar2 {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        top: 0;
+        left: 0;
+        height: 3rem;
+        width: 100%;
+        background-color:black;
+        padding-top: 2%;
+        border-top: 1 px solid grey;
+    }
+    .search {
+        background-color:rgb(55, 54, 54);
+        width: 250px;
+        border-radius: 10px;
+        padding-left: 1%;
+        margin: 0;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        color: rgb(146, 144, 144);
+        margin-left: 15%;
+    }
+    .search-input {
+        background-color:rgb(55, 54, 54);
+        border: 0;
+        color: white;
+        border-radius: 5px;
+        width: 200px;
+        height: 1.5rem;
+    }
+    .navlogo {
+        display: block;
+        width: 15%;
+        height: 50%;
+        padding-top: 0.5rem;
+    }
+    .sidebarbottom {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        left: 0;
+        height: 2rem;
+        width: 100%;
+        background-color:black;
+        padding-top: 3%;
+        border-top: 1 px solid grey;
+    }
+    .link a {
+        display: none;
+    }
+    .rightsidebar {
+        display: none;
+    }
+    div.link:hover {
+        background-color: rgb(49, 49, 50);
+    }
+    .link {
+        height: 2rem;
+        width: 5%;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mainbar {
+        width:100vw;
+        margin-top: 2%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content:space-around;
     }
     .image1 {
         border-radius: 50%;
         height: 50px;
         width: 50px;
+    }
+    .post {
+        height: 13rem;
+        width: 13rem;
+        background-color: white;
+        border: 1px solid black;
+        margin: 1px;
     }
 }

@@ -1,0 +1,239 @@
+body {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+    display: flex ;
+    width: 100vw;
+    margin-right: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.sidebar {
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.logo2 {
+    padding-left: 1rem;
+}
+div.link:hover {
+    background-color: rgb(49, 49, 50);
+}
+.link {
+    height: 7%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.sidebarbottom {
+    display: none;
+}
+.navlogo {
+    display: none;
+}
+.mainbar2 {
+    display: none;
+}
+.sidebar.link {
+    display: flex;
+    align-items: center;
+    padding: o.7rem 0;
+    font-size: 1.3rem;
+    margin-right:10 px;
+}
+.image {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.mainbar {
+    width:100vw;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    padding-left: 5rem;
+}
+.middlebar {
+    height: 5rem;
+    width: 20rem;
+    background-color: black;
+}
+.topmiddlebar {
+    position: fixed;
+    height: 5rem;
+    width: 20rem;
+    background-color: black;
+}
+.middlebar1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    height: 2.5rem;
+    background-color: black;
+}
+.middlebar2 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0;
+    height: 2.5rem;
+    background-color: black;
+}
+.middlebar3 {
+    width: 20rem;
+    height: 490px;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.chat {
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+p {
+    margin: 0;
+    padding-left: 1rem;
+}
+.image3 {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgb(68, 68, 244);
+    margin-top:1rem;
+    margin-left: 2rem;
+}
+.right {
+    background-color:black;
+    height:100vh;
+    width:67vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid grey;
+}
+.center {
+    background-color:black;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#msglogo {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#msg {
+    height: 80px;
+    width: 80px;
+}
+.btn {
+    background-color: rgb(16, 159, 220);
+    color: white;
+    border-radius: 10px;
+    height: 30px;
+}
+.rght {
+    margin: 1rem;
+}
+@media screen and (max-width:700px)
+{
+    .sidebar {
+        display: none;
+    }
+    .sidebarbottom {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        left: 0;
+        height: 2rem;
+        width: 100%;
+        background-color:black;
+        padding-top: 3%;
+        border-top: 1 px solid grey;
+    }
+    .link a {
+        display: none;
+    }
+    .rightsidebar {
+        display: none;
+    }
+    div.link:hover {
+        background-color: rgb(49, 49, 50);
+    }
+    .link {
+        height: 2rem;
+        width: 5%;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mainbar {
+        width:100vw;
+        margin-top: 2%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content:space-around;
+        padding-left: 0;
+    }
+    .chat .text {
+        display: none;
+    }
+    .chat .dot {
+        display: none;
+    }
+    .middlebar {
+        width: 3rem;
+    }
+    .middlebar1 {
+        width: 3rem;
+    }
+    .middlebar2 {
+        width: 3rem;
+        display: none;
+    }
+    .middlebar1 h2 {
+        display: none;
+    }
+    .right {
+        border-left: 1px solid grey;
+    }
+}
