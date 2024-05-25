@@ -1,0 +1,156 @@
+body {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+    display: flex ;
+    width: 100vw;
+    margin-right: 0;
+    overflow-x: hidden;
+}
+.sidebar {
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    border-right: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.logo2 {
+    padding-left: 1rem;
+}
+div.link:hover {
+    background-color: rgb(49, 49, 50);
+}
+.link {
+    height: 7%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.sidebarbottom {
+    display: none;
+}
+.navlogo {
+    display: none;
+}
+.mainbar2 {
+    display: none;
+}
+.sidebar.link {
+    display: flex;
+    align-items: center;
+    padding: o.7rem 0;
+    font-size: 1.3rem;
+    margin-right:10 px;
+}
+.image {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+.mainbar {
+    width:100vw;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    padding-left: 5rem;
+}
+.midlebar {
+    height: 45rem;
+    width: 20rem;
+    background-color: black;
+    border-right: 1px solid grey;
+}
+.dot {
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: rgb(68, 68, 244);
+    margin-top:1rem;
+    margin-left: 2rem;
+}
+.straight {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.btn {
+    background-color: rgb(11, 205, 249);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+}
+.btn1 {
+    background-color: rgb(64, 63, 63);
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    height: 30px;
+}
+p {
+    margin: 0;
+}
+.image1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 2px;
+}
+@media screen and (max-width:700px)
+{
+    .sidebar {
+        display: none;
+    }
+    .sidebarbottom {
+        display: block;
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        bottom: 0;
+        left: 0;
+        height: 2rem;
+        width: 100%;
+        background-color:black;
+        padding-top: 3%;
+        border-top: 1 px solid grey;
+    }
+    .link a {
+        display: none;
+    }
+    .rightsidebar {
+        display: none;
+    }
+    div.link:hover {
+        background-color: rgb(49, 49, 50);
+    }
+    .link {
+        height: 2rem;
+        width: 5%;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+    }
+    .mainbar {
+        width:100vw;
+        margin-top: 2%;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content:space-around;
+        padding-left: 0;
+    }
+}
