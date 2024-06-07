@@ -1,6 +1,6 @@
 body {
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
     display: flex ;
     width: 100vw;
@@ -9,31 +9,32 @@ body {
     overflow-y: hidden;
 }
 .sidebar {
-    width: 5%;
+    width: 6.75%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
-    padding-left: 1rem;
     border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:center;
 }
 .logo2 {
-    padding-left: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 div.link:hover {
     background-color: rgb(49, 49, 50);
 }
 .link {
-    height: 7%;
+    height:8.75%;
     width: 60%;
     display: flex;
     align-items: center;
     border-radius: 10px;
+    padding-left: 1rem;
 }
 .sidebarbottom {
     display: none;
@@ -73,13 +74,13 @@ a {
 .middlebar {
     height: 5rem;
     width: 20rem;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
 }
 .topmiddlebar {
     position: fixed;
     height: 5rem;
     width: 20rem;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
 }
 .middlebar1 {
     display: flex;
@@ -88,7 +89,7 @@ a {
     padding-right: 1rem;
     margin: 0;
     height: 2.5rem;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
 }
 .middlebar2 {
     display: flex;
@@ -98,7 +99,7 @@ a {
     padding-right: 1rem;
     margin: 0;
     height: 2.5rem;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
 }
 .middlebar3 {
     width: 20rem;
@@ -131,7 +132,7 @@ p {
     margin-left: 2rem;
 }
 .right {
-    background-color:black;
+    background-color:rgb(21, 21, 21);
     height:100vh;
     width:67vw;
     display: flex;
@@ -140,7 +141,7 @@ p {
     border-left: 1px solid grey;
 }
 .center {
-    background-color:black;
+    background-color:rgb(21, 21, 21);
     height: 300px;
     width: 300px;
     display: flex;
@@ -185,7 +186,7 @@ p {
         left: 0;
         height: 2rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(21, 21, 21);
         padding-top: 3%;
         border-top: 1 px solid grey;
     }

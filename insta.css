@@ -1,6 +1,6 @@
 body {
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
     display: flex ;
     width: 100vw;
@@ -8,35 +8,37 @@ body {
     overflow-x: hidden;
 }
 .sidebar {
-    width: 17%;
+    width: 21%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
-    padding-left: 2rem;
     border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:center;
 }
 div.link:hover {
     background-color: rgb(49, 49, 50);
 }
 .link {
-    height: 7%;
-    width: 60%;
+    height: 8.75%;
+    width: 80%;
     display: flex;
     align-items: center;
     border-radius: 10px;
+    padding-left: 2rem;
 }
 .sidebarbottom {
     display: none;
 }
 .logo {
     width: 50%;
-    height: 5%;
+    height: 6%;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
 }
 .logo2 {
     display: none;
@@ -103,7 +105,7 @@ a {
     margin-right: 0 ;
     display: flex;
     justify-content: space-between;
-    background-color:black;
+    background-color:rgb(21, 21, 21);
 }
 .middlebar {
     margin-right:4%;
@@ -126,7 +128,7 @@ a {
 }
 .anchor {
     text-decoration: none;
-    color: blue;
+    color: rgb(12, 137, 240);
     font-weight: normal;
     padding-right: 2rem;
 }
@@ -169,14 +171,14 @@ a {
     margin-top: 1%;
 }
 .bottommiddlebar {
-    background-color:black;
+    background-color:rgb(21, 21, 21);
     width: 90%;
     margin-left: 10%;
 }
 .bottompart1 {
     width: 100%;
     height: 3rem;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     display: flex;
     align-items: center;
     margin-top: 2%;
@@ -221,7 +223,7 @@ a {
 .bottompart3 {
     height: 3rem;
     width: 80%;
-    background-color:black;
+    background-color:rgb(21, 21, 21);
     display: flex;
     align-items: center;
     margin-left: 5%;
@@ -240,7 +242,7 @@ a {
     margin-left: 5%;
     height: 3rem;
     width: 80%;
-    background-color:black;
+    background-color:rgb(21, 21, 21);
 }
 .bottompart5 {
     display: flex;
@@ -248,7 +250,7 @@ a {
     height: 3rem;
     width: 80%;
     margin: 0;
-    background-color:black;
+    background-color:rgb(21, 21, 21);
     justify-content: space-between;
 }
 .comment {
@@ -265,13 +267,16 @@ a {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: black;
+        background-color: rgb(21, 21, 21);
         color: white;
         padding-left: 2rem;
         border-right: 1px solid grey;
         display: flex;
         flex-direction: column;
         justify-content:space-around;
+    }
+    .link {
+        padding-left: 0%;
     }
     .link a {
         display:none ;
@@ -366,7 +371,7 @@ a {
         left: 0;
         height: 3rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(21, 21, 21);
         padding-top: 2%;
         border-top: 1 px solid grey;
     }
@@ -405,7 +410,7 @@ a {
         left: 0;
         height: 2rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(21, 21, 21);
         padding-top: 3%;
         border-top: 1 px solid grey;
     }

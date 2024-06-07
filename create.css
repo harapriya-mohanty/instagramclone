@@ -4,38 +4,42 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 .sidebar {
-    width: 17%;
+    width: 21%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     color: white;
-    padding-left: 2rem;
     border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content:center;
 }
 div.link:hover {
     background-color: rgb(49, 49, 50);
 }
 .link {
-    height: 7%;
-    width: 60%;
+    height: 8.75%;
+    width: 80%;
     display: flex;
     align-items: center;
     border-radius: 10px;
+    padding-left: 2rem;
 }
 .sidebarbottom {
     display: none;
 }
 .logo {
     width: 50%;
-    height: 5%;
+    height: 6%;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
 }
 .logo2 {
     display: none;
