@@ -104,17 +104,17 @@ a {
     background-position: center;
 }
 #post2 {
-    background-image: url(feed3.jpeg);
+    background-image: url(feed3);
     background-size:cover;
     background-position: center;
 }
 #post3 {
-    background-image: url(feed5.jpeg);
+    background-image: url(feed5.jpg);
     background-size:cover;
     background-position: center;
 }
 #post4 {
-    background-image: url(feed7.jpeg);
+    background-image: url(feed7.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -124,22 +124,22 @@ a {
     background-position: center;
 }
 #post6 {
-    background-image: url(feed12.jpeg);
+    background-image: url(feed12.jpg);
     background-size:cover;
     background-position: center;
 }
 #post7 {
-    background-image: url(feed6.jpeg);
+    background-image: url(feed6.png);
     background-size:cover;
     background-position: center;
 }
 #post8 {
-    background-image: url(feed11.jpeg);
+    background-image: url(feed11.jpg);
     background-size:cover;
     background-position: center;
 }
 #post9 {
-    background-image: url(feed8.jpeg);
+    background-image: url(feed8.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -149,27 +149,27 @@ a {
     background-position: center;
 }
 #post11 {
-    background-image: url(feed10.jpeg);
-    background-size:contain;
+    background-image: url(feed10.jpg);
+    background-size:cover;
     background-position: center;
 }
 #post12 {
-    background-image: url(feed9.jpeg);
+    background-image: url(feed9.webp);
     background-size: cover;
     background-position: center;
 }
 #post13 {
-    background-image: url(feed14.jpeg);
-    background-size:contain;
+    background-image: url(feed14.webp);
+    background-size:cover;
     background-position: center;
 }
 #post14 {
-    background-image: url(feed15.jpeg);
-    background-size:auto;
+    background-image: url(feed15.webp);
+    background-size:cover;
     background-position: center;
 }
 #post15 {
-    background-image: url(feed4.jpg);
+    background-image: url(feed4.webp);
     background-size:cover;
     background-position: center;
 }
@@ -181,6 +181,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items:flex-end;
+    margin-top: 10px;
 }
 .post {
     display: flex;
