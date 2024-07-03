@@ -6,17 +6,15 @@ body {
     width: 100vw;
     margin-right: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 .sidebar {
-    width: 6.75%;
+    width: 4%;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
     background-color: rgb(21, 21, 21);
     color: white;
-    border-right: 1px solid grey;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -29,8 +27,8 @@ div.link:hover {
     background-color: rgb(49, 49, 50);
 }
 .link {
-    height:8.75%;
-    width: 60%;
+    height: 8.75%;
+    width: 80%;
     display: flex;
     align-items: center;
     border-radius: 10px;
@@ -69,115 +67,61 @@ a {
     margin-right: 0;
     margin-left: 0;
     display: flex;
-    padding-left: 5rem;
-}
-.middlebar {
-    height: 5rem;
-    width: 20rem;
-    background-color: rgb(21, 21, 21);
-}
-.topmiddlebar {
-    position: fixed;
-    height: 5rem;
-    width: 20rem;
-    background-color: rgb(21, 21, 21);
-}
-.middlebar1 {
-    display: flex;
-    justify-content: space-between;
     padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 0;
-    height: 2.5rem;
+}
+.midlebar {
+    height: 45rem;
+    width: 22rem;
     background-color: rgb(21, 21, 21);
+    border-right:1px solid grey;
+    margin-left: 3rem;
 }
-.middlebar2 {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    margin: 0;
-    height: 2.5rem;
-    background-color: rgb(21, 21, 21);
+h2 {
+    padding-left: 0.5rem;
 }
-.middlebar3 {
-    width: 20rem;
-    height: 490px;
-    margin-top: 5rem;
-    display: flex;
-    flex-direction: column;
+input {
+    background-color: grey;
+    border-radius: 5px;
 }
-.chat {
+.searchbar {
+    background-color: rgb(38, 38, 38);
+    width: 90%;
+    height: 35%;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.top {
+    border-bottom: 1px solid grey;
+    height: 100px;
+}
+.mbottom {
     display: flex;
     flex-direction: row;
-    padding-top: 1rem;
+    justify-content: space-between;
     padding-left: 1rem;
-}
-p {
-    margin: 0;
-    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .image3 {
-    height: 45px;
-    width: 45px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
-.dot {
-    height: 6px;
-    width: 6px;
-    border-radius: 50%;
-    background-color: rgb(68, 68, 244);
-    margin-top:1rem;
-    margin-left: 2rem;
-}
-.right {
-    background-color:rgb(21, 21, 21);
-    height:100vh;
-    width:67vw;
+.straight {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border-left: 1px solid grey;
+    flex-direction: row;
+    margin-bottom: 1rem;
 }
-.center {
-    background-color:rgb(21, 21, 21);
-    height: 300px;
-    width: 300px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-#msglogo {
-    height: 130px;
-    width: 130px;
-    border-radius: 50%;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#msg {
-    height: 80px;
-    width: 80px;
-}
-.btn {
-    background-color: rgb(16, 159, 220);
-    color: white;
-    border-radius: 10px;
-    height: 30px;
-}
-.rght {
-    margin: 1rem;
+.text p {
+    margin: 0;
+    padding-left: 1rem;
 }
 .text h4 {
     margin: 0;
     padding-left: 1rem;
 }
-.text p {
-    color: rgb(224, 222, 222);
+.clear i {
+    margin-bottom: 2.5rem;
 }
 @media screen and (max-width:700px)
 {
@@ -221,27 +165,5 @@ p {
         display: flex;
         justify-content:space-around;
         padding-left: 0;
-    }
-    .chat .text {
-        display: none;
-    }
-    .chat .dot {
-        display: none;
-    }
-    .middlebar {
-        width: 3rem;
-    }
-    .middlebar1 {
-        width: 3rem;
-    }
-    .middlebar2 {
-        width: 3rem;
-        display: none;
-    }
-    .middlebar1 h2 {
-        display: none;
-    }
-    .right {
-        border-left: 1px solid grey;
     }
 }
